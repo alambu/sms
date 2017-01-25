@@ -1,0 +1,349 @@
+html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		*{
+			margin: 0px;
+			padding: 0px;	
+		}
+		body{
+			color: #666;
+			background-color:lightgray;
+			font-family:solaimanLipi,arial;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.fix{
+			overflow:hidden;
+		}
+		.floatleft{
+			float: left;
+		}
+		.floatright{
+			float: right;
+		}
+		.stracture{
+			margin: 0 auto;
+			display: block;
+			
+		}
+		.wrapper{
+			page-break-after: always;
+			width: 21cm;
+			height: 30.9cm;
+			padding:1em;
+			margin: 0 auto;
+			border: 1px black solid;
+			border-radius: 5px;
+			background: white;
+			margin-bottom: 10px;
+		}
+		.top-side{
+			width: 21cm;
+			height: 15.3cm;
+		}
+		.dottet{
+			height: 2px;
+			width: 100%;
+			border-top: 2px dotted #000;
+			padding-top: 0.1cm;
+			padding-bottom: 0.1em;
+			
+		}
+		.bottom-side{
+			width: 21cm;
+			height: 15.3cm;
+		}
+		.heading{
+			width: 20.2cm;
+			text-align:center;
+			line-height: 17px;
+			padding: 1em;
+			border: 0px solid red;
+		}
+		
+		.heading-left{
+			width: 4cm;
+			border: 0px solid green;
+		}
+		.heading-mid{
+			width: 12cm;
+			text-align:center;
+			padding: 2px; /*optional*/
+			border: 0px solid green;
+		}
+		.heading-mid p>span{
+			font-weight: bold;
+			font-size: 13px;
+		}
+		.heading-right{
+			width: 3.9cm;
+			height: 97px;
+			border: 0px solid green;
+		}
+		.heading-right img{
+			text-align: center;
+			height: 97px;
+			width: 100px;
+		}
+		.heading-mid>h2{
+			font-weight: bold;
+			font-size: 28px;
+			padding-bottom: 10px;
+		}
+		.heading-mid>h4{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 10px;
+		}
+		.heading-mid .small-font{
+			font-size: 12px;
+		}
+		.mid-top{
+			margin-top: 5px;
+		}
+		.mid-top-left, .mid-top-mid, .mid-top-right{
+			width: 7cm;
+			border: 0px solid red;
+			
+		}
+		.mid-top-left {
+			padding: 5px 0px 0px 50px;
+			color: #000;
+			font-size: 12px;
+			box-sizing: border-box;
+			
+		}
+		.mid-top-mid{
+			text-align: center;
+			font-weight: bold;
+			color: #000;
+		}
+		.mid-top-mid>p{
+			padding: 2px;
+			border: 1px solid #000;
+			margin-bottom: 5px;
+		}
+		.mid-top-right{
+			color: #000;
+			font-size: 11px;
+			line-height: 17px;
+			box-sizing: border-box;
+			text-align: right;
+			padding-right: 43px;
+		}
+		.mid-top-right span.date-style{
+			border-bottom: 0px dashed #000;
+		}
+		.mid-studentinfo{
+			margin-top: 10px;
+			color: #000;
+			font-size: 14px;
+		}
+		.mid-studentinfo span{
+			border: 1px solid #000;
+			height: 18px;
+			font-size: 12px;
+			padding: 1px;
+			display: inline-block;
+			margin: 2px;
+		}
+		
+		.mid-studentinfo span.span1{
+			width: 120px;
+			color: #fff;
+			background: #333;
+		}
+		.mid-studentinfo span.span2{
+			width: 250px;
+		}
+		.mid-studentinfo span.span3{
+			width: 120px;
+		}
+		.mid-studentinfo-left{
+			width: 13cm;
+			padding-left: 50px;
+			box-sizing: border-box;
+		}
+		.mid-studentinfo-right{
+			width: 8cm;
+		}
+		.mid-studentTaka{
+			margin-top: 10px;
+			color: #000;
+			font-size: 14px;
+			padding-left:3px;
+			height: 195px;
+			border: 0px solid red;
+		}
+		.mid-studentTaka table{
+			width: 88%;
+			margin: 0px auto;
+			table-layout: fixed;
+			
+		}
+		.amount-right{
+			text-align:right;
+		}
+		.mid-studentTaka table tr th{
+			font-weight: bold;
+			font-size: 14px;
+			border: 1px solid #000;
+			
+		}
+		.mid-studentTaka table tr td{
+			border: 1px solid #000;
+			text-align: left;
+			text-indent: 6px;
+			font-size:12px;
+			
+		}
+		.mid-studentTaka h3{
+			font-weight: bold;
+			font-size: 14px;
+			font-style: normal;
+			margin-bottom: 10px;
+		}
+		.mid-studentTaka-left{
+			width: 12cm;
+		}
+		.mid-studentTaka-left>h3{
+			text-align:left;
+			text-indent: 130px;
+		}
+		.mid-studentTaka-left p{
+			text-indent: 100px;
+			box-sizing: border-box;
+		}
+		.mid-studentTaka p.highlightamount{
+			font-weight: bold;
+			font-size: 14px;
+		}
+		.mid-studentTaka-right{
+			width: 8cm;
+		}
+		.mid-studentTaka-right p{
+			text-indent: 10px;
+		}
+		.mid-studentTaka-right p.no-indent{
+			text-indent: 10px;
+		}
+		div.inwords-div{
+			text-indent: 50px;
+		} 
+		.inwords-div span.inwords{
+			border-bottom: 0px dashed #000;
+			color: #000;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		
+		.footer{
+			margin-top: 10px;
+			height: 70px;
+			border: 0px solid red;
+		}
+		.footer p{
+			position: relative;
+			top: 45px;
+		}
+		.footer p>span{
+			border-top: 1px solid #000;
+		}
+		.footer-left{
+			width: 10cm;
+			height: 65px;
+			text-indent: 45px;
+			border: 0px solid blue;
+		}
+		.footer-right{
+			width: 10cm;
+			height: 65px;
+			text-indent: 192px;
+			border: 0px solid yellow;
+		}
+		
+		/*  - For Print
+		------------------------------------------------------*/
+		.print-certificate {
+		 width: 77px;
+		 height: 76px;
+		 position: fixed;
+		 padding: 5px;
+		 bottom: 30px;
+		 right: 30px;
+		 color: #ffffff;
+		 font-size: 2em;
+		 text-align: center;
+		 line-height: 36px;
+		 background-color: #D3D3D3;
+		 -moz-border-radius: 6px 20px 6px 20px;
+		 -webkit-border-radius: 6px 20px 6px 20px;
+		 border-radius: 6px 20px 6px 20px;
+		 z-index: 9999;
+		}
+		.print-certificate img{
+		 width: 70px;
+		 height: 70px;
+		 margin-top: 5px;
+		 cursor: pointer;
+		}
+		@media all and (max-width: 1065px) {
+			#print-full-page {
+				display:none;
+			}
+		}
+		@media print
+		{    
+			.no-print, .no-print *
+			{
+				visibility:hidden;
+			}
+			table{
+				background:none;
+			}
+			.wrapper{
+				margin-bottom: 0px;
+				page-break-after: always;
+				border:none;
+			}
+		}
