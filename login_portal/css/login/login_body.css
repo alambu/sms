@@ -1,0 +1,128 @@
+body
+{
+    margin-top: 20px;
+    padding: 0;
+    background-color: #C0C4C6;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #2F2C2C;
+}
+.PageHeading
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.v11nb
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: Black;
+}
+.v13nb
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: Black;
+}
+#wrapper
+{
+    width: 950px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+}
+#header
+{
+    height: 91px;
+    background-repeat: no-repeat;
+    border: 1px solid #2F2C2C;
+    background-color: #95a5a6;
+    color:Navy;
+}
+#header p
+{
+    margin: 0;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+#footer {
+  clear: left;
+  margin : 0;
+  padding: 5px;
+  height : 15px;
+  background-color : #95a5a6;
+  border: 1px solid #2F2C2C;
+  text-align: center;
+  font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  color : Navy;
+}
+.error
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FF0000;
+}
+
+/*
+#login-box {
+	width:333px;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial,Tahoma,Verdana,Helvetica,sans-serif;
+	background: url(Images/login-box-backg.png) no-repeat left top;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px Arial,Tahoma,Verdana,Helvetica,sans-serif;
+}
+
+
+.login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+.login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #000;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+*/

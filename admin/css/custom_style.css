@@ -1,0 +1,28 @@
+/*********show popup message**********/
+#msg{
+  border: 1px solid #333;
+    cursor: pointer;
+	background:black;
+	display:none;
+    left: 50%;
+    margin-left: -210px;
+    margin-top: -408px;
+    padding: 3px 0;
+    position: absolute;
+    width: 287px;
+    z-index: 999;
+}
+
+#msg p{
+padding:5px 10px;
+margin:0px;
+color:white;
+text-align:center;
+
+}
+.error{border-color:red;}
+.errornone{border-color:none;}
+#hidemessage{
+			position: relative;
+			display:none;
+		}

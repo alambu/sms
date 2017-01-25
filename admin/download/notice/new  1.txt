@@ -1,0 +1,19 @@
+Our Module :
+	1. Inventory Management
+	2.Account Management
+	3.Sale Management
+	4.Employee Management
+	5.Customer Management
+	6.User Management
+	7.Buy Price Configuration.
+
+Features:
+1. Bar-code Generate
+2. Order and Receiving System 
+3. Medicine Notification System
+4. Medicine Sale History
+5. User Access panel Create
+6. Medicine return After Sale
+7.Various Reporting
+8.Time consumption
+9.
