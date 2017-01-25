@@ -1,0 +1,8 @@
+$valid = $this->app_license->main_license_check();
+		// $valid = 0;
+		if( $valid == 0 ):
+		elseif( $valid == 1 ):
+			redirect("registration/expire","location");
+		elseif( $valid == 2 ):
+			redirect("registration/regis","location");
+		endif;

@@ -1,0 +1,23 @@
+body{
+background:#EAEAEA;
+font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+color:#333;
+}
+#wrapper{
+width:400px;
+border:1px solid #ccc;
+margin:10% auto;
+background:#fff;
+}
+.notice{margin:10px;width:315px;padding:5px;font-size:11px;padding-left:35px;}
+.info{background:#E8F6FF url(../image/info.png) no-repeat left center;padding-left:30px;margin-bottom:30px;border:1px solid #B8E2FB;}
+.error{background:#FEEBEB url(../image/error.png) no-repeat left center;padding-left:30px;margin-bottom:30px;border:1px solid #FFAEAE;}
+.warn{background:#FFF5CC url(../image/warn.png) no-repeat left center;padding-left:30px;margin-bottom:30px;border:1px solid #F2DD8C;}
+.done{background:#EAF7D9 url(../image/done.png) no-repeat left center;padding-left:30px;margin-bottom:30px;border:1px solid #BBDF8D;}
+.login{padding:10px;}
+.login h2{font-size:18px;margin:5px 10px;color:#333 }
+.login table{margin:10px;}
+.login td{font-size:11px;color:#666;padding:5px 0;}
+.login input{width:340px;height:15px;padding:5px;}
+.login input.submit{width:80px;height:25px;padding:5px 10px;border:1px solid #BFBFBF;background:#ccc;cursor:pointer;}
+
